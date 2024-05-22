@@ -275,103 +275,7 @@ public class praktikum1 extends javax.swing.JFrame {
 
     private void jBSubmitLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBSubmitLoginActionPerformed
         // TODO add your handling code here:
-//        String a = jTFNama.getText();
-//        String b = jTFTanggalLahir.getText();
-//        int c = Integer.parseInt(jTFNoDaftar.getText());
-//        int d = Integer.parseInt(jTFNoTelp.getText());
-//        String e = jTFAlamat.getText();
-//        String f = jTFEmail.getText();
-//        
-//        
-//        
-//        javax.swing.JOptionPane.showMessageDialog(null, "Nama Lengkap\t\t:"+a+"\nTanggal Lahir\t: "+b+"\nNomor Pendaftaran : "+c+"\nNo Telp\t\t: "+d+"\nAlamat\t\t: "+e+"\nEmail\t\t: "+f);
-   
-////////////////////////////////////////////////////////// batas coba1/////////////////////
 
-//        String a = jTFNama.getText();
-//        String b = jTFTanggalLahir.getText();
-//        String cS = jTFNoDaftar.getText();
-//        String dS = jTFNoTelp.getText();
-//        String e = jTFAlamat.getText();
-//        String f = jTFEmail.getText();
-//
-//        if (a.isEmpty() || b.isEmpty() || cS.isEmpty() || dS.isEmpty() || e.isEmpty() || f.isEmpty()) {
-//            JOptionPane.showMessageDialog(this, "Harap Isi Semua kolom!", "Data Kosong !", JOptionPane.WARNING_MESSAGE);
-//            return; // Keluarkan dari method jika ada input yang kosong
-//        }
-//
-//        try {
-//            // Parsing input yang harus berupa angka
-//            int c = Integer.parseInt(cS);
-//            int d = Integer.parseInt(dS);
-//
-//            // Menampilkan dialog konfirmasi
-//            int response = JOptionPane.showConfirmDialog(this, "Apakah anda yakin data yang Anda isi sudah benar?", "Konfirmasi", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
-//            if (response == JOptionPane.YES_OPTION) {
-//                // Jika pengguna memilih YES
-//                System.out.println("YES clicked");
-//
-//                // Menampilkan informasi input pengguna
-//                JOptionPane.showMessageDialog(this, "Nama : " + a + "\nTanggal Lahir : " + b + "\nNomor Pendaftaran : " + c + "\nNo Telp: " + d + "\nAlamat : " + e + "\nE-mail : " + f);
-//            } else if (response == JOptionPane.NO_OPTION) {
-//                // Jika pengguna memilih NO
-//                System.out.println("NO clicked");
-//            }
-//        } catch (NumberFormatException ex) {
-//            // Menampilkan pesan kesalahan jika input tidak bisa diubah menjadi angka
-//            JOptionPane.showMessageDialog(this, "Nomor Pendaftaran dan No Telp harus berupa angka!", "Error", JOptionPane.ERROR_MESSAGE);
-//        }
-
-           ///////////////////////////////////////////batas coba2//////////////////////////////////////////////////////////////////   
-//        String a = jTFNama.getText();
-//        String b = jTFTanggalLahir.getText();
-//        String cS = jTFNoDaftar.getText();
-//        String dS = jTFNoTelp.getText();
-//        String e = jTFAlamat.getText();
-//        String f = jTFEmail.getText();
-//
-//        if (a.isEmpty() || b.isEmpty() || cS.isEmpty() || dS.isEmpty() || e.isEmpty() || f.isEmpty()) {
-//            JOptionPane.showMessageDialog(this, "Harap Isi Semua kolom!", "Data Kosong !", JOptionPane.WARNING_MESSAGE);
-//            return; // Keluarkan dari method jika ada input yang kosong
-//        }
-//
-//        try {
-//            // Parsing input yang harus berupa angka
-//            int c = Integer.parseInt(cS);
-//            int d = Integer.parseInt(dS);
-//
-//            // Menampilkan dialog konfirmasi
-//            int response = JOptionPane.showConfirmDialog(this, "Apakah anda yakin data yang Anda isi sudah benar?", "Konfirmasi", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
-//            if (response == JOptionPane.YES_OPTION) {
-//                 // Jika pengguna memilih YES
-//        System.out.println("Berhasil");
-//
-//        // Membuat frame baru untuk menampilkan informasi input pengguna
-//        JFrame frame = new JFrame("Data Mahasiswa ");
-//        frame.setLayout(new GridLayout(6, 1));
-//        frame.setSize(400, 300);
-//
-//        // Menambahkan label-label untuk menampilkan informasi
-//        frame.add(new JLabel("Nama                        : " + a));
-//        frame.add(new JLabel("Tanggal Lahir           : " + b));
-//        frame.add(new JLabel("Nomor Pendaftaran  : " + c));
-//        frame.add(new JLabel("No Telp                     : " + d));
-//        frame.add(new JLabel("Alamat                       : " + e));
-//        frame.add(new JLabel("E-mail                        : " + f));
-//
-//        frame.setLocationRelativeTo(null);
-//        frame.setVisible(true);
-//            } else if (response == JOptionPane.NO_OPTION) {
-//                // Jika pengguna memilih NO
-//                System.out.println("Dibatalkan");
-//            }
-//        } catch (NumberFormatException ex) {
-//            // Menampilkan pesan kesalahan jika input tidak bisa diubah menjadi angka
-//            JOptionPane.showMessageDialog(this, "Nomor Pendaftaran dan No Telp harus berupa angka!", "Error", JOptionPane.ERROR_MESSAGE);
-//        }
-//        
-        /////////////////////////////////////////batas coba3//////////////////////////////////////////////////////////
-        
         String a = jTFNama.getText();
         String b = jTFTanggalLahir.getText();
         String cS = jTFNoDaftar.getText();
@@ -381,36 +285,31 @@ public class praktikum1 extends javax.swing.JFrame {
 
         if (a.isEmpty() || b.isEmpty() || cS.isEmpty() || dS.isEmpty() || e.isEmpty() || f.isEmpty()) {
             JOptionPane.showMessageDialog(this, "Harap Isi Semua kolom!", "Data Kosong !", JOptionPane.WARNING_MESSAGE);
-            return; // Keluarkan dari method jika ada input yang kosong
+            return;
         }
 
         try {
-            // Parsing input yang harus berupa angka
+            
             int c = Integer.parseInt(cS);
             int d = Integer.parseInt(dS);
 
-            // Menampilkan dialog konfirmasi
+          
             int response = JOptionPane.showConfirmDialog(this, "Apakah anda yakin data yang Anda isi sudah benar?", "Konfirmasi", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
             if (response == JOptionPane.YES_OPTION) {
-                // Jika pengguna memilih YES
                 System.out.println("YES clicked");
 
-                // Menampilkan informasi input pengguna
-                 
-                String data = String.format( "Nama: %s\nTanggal: %s\nPendaftaran: %d\nNo: %d\nAlamat: %s\nEmail: %s", a, b, c, d, e, f );
                 
+                 
+                String data = String.format( "Nama: %s\nTanggal: %s\nPendaftaran: %d\nNo: %d\nAlamat: %s\nEmail: %s", a, b, c, d, e, f );      
                 new tampilan(data).setVisible(true);
                 
             } else if (response == JOptionPane.NO_OPTION) {
-                // Jika pengguna memilih NO
                 System.out.println("NO clicked");
             }
         } catch (NumberFormatException ex) {
-            // Menampilkan pesan kesalahan jika input tidak bisa diubah menjadi angka
             JOptionPane.showMessageDialog(this, "Nomor Pendaftaran dan No Telp harus berupa angka!", "Error", JOptionPane.ERROR_MESSAGE);
         }
-        
-        ///////////////////////////////////batas coba4//////////////////////////////////
+    
     }//GEN-LAST:event_jBSubmitLoginActionPerformed
 
     private void jTFNamaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFNamaActionPerformed
